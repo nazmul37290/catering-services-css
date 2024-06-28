@@ -256,3 +256,25 @@ textarea {
   font-weight: bold;
   margin-top: 20px;
 }
+
+.contact-information {
+  max-width: 1280px;
+  margin: 0 auto;
+  border: 1px solid olive;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.contact-information h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.contact-information p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.contact-information p span {
+  font-weight: bold;
+}
