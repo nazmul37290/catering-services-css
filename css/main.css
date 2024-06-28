@@ -141,3 +141,66 @@
   height: 100%;
   border-radius: 15px;
 }
+
+/* our staffs related styles */
+.staff-card-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.staff-card {
+  border: 1px solid olive;
+  width: 300px;
+  border-radius: 15px;
+}
+.staff-card-img-container {
+  width: 100%;
+  height: 200px;
+}
+.staff-card-img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.staff-card-contents {
+  padding: 20px;
+  text-align: center;
+}
+.staff-card h2 {
+  font-size: 28px;
+}
+.staff-card h4 {
+  font-weight: 600;
+}
+.staff-card-contents p {
+  margin: 10px 0;
+}
+
+/* about-company related styles */
+.about-company-container {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 30px;
+  border: 1px solid olive;
+  padding: 20px;
+  border-radius: 15px;
+  align-items: start;
+}
+.about-company-img-container {
+  width: 50%;
+  height: 100%;
+}
+.about-company-img-container img {
+  width: 100%;
+  height: 100%;
+}
+.about-company-contents {
+  width: 50%;
+}
+.about-company-contents h1 {
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
