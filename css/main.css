@@ -64,7 +64,7 @@
 /* menu related styles */
 
 .menu-card-container {
-  width: 1280px;
+  max-width: 1280px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -301,4 +301,39 @@ textarea {
   color: white;
   padding: 10px;
   border-radius: 10px 10px 0 0;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .banner {
+    background-color: blue;
+   
+  }
+  .menu-card-container {
+    flex-direction: column;
+  }
+  .menu-card {
+    margin: 0 auto;
+    width: 80%;
+    
+  }
+  .review-card-container {
+    flex-direction: column;
+  }
+  .review-card {
+   
+    
+    width: 100%;
+    
+  }
+  .gallery-images-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .review-card {
+    flex-direction: column;
+  }
 }
